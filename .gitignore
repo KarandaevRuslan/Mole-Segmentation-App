@@ -79,3 +79,6 @@ tmp/
 
 # pipreqs / packaging cache
 requirements.lock
+
+# Model training checkpoints
+segmentation_models/
