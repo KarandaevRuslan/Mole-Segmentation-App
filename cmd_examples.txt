@@ -1,0 +1,11 @@
+pylupdate5:
+C:\Users\secre\anaconda3\pylupdate5.bat main.py view.py presenter.py -ts translations/app_ru.ts
+
+linguist:
+C:\Users\secre\anaconda3\Library\bin\linguist.exe translations/app_ru.ts
+
+lrelease:
+C:\Users\secre\anaconda3\Library\bin\lrelease.exe translations/app_ru.ts
+
+pipreqs:
+C:\Users\secre\anaconda3\python.exe -m pipreqs.pipreqs . --force --encoding=utf-8

@@ -1,0 +1,7 @@
+numpy
+opencv-python
+PyQt5
+PyQt5-sip
+segmentation-models-pytorch
+torch
+pyqtdarktheme

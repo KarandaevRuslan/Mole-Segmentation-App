@@ -1,0 +1,11 @@
+TRANSLATIONS = translations/app_ru.ts 
+SOURCES += app_state.py 
+SOURCES += config.py 
+SOURCES += i18n_binder.py 
+SOURCES += image_utils.py 
+SOURCES += main.py 
+SOURCES += presenter.py 
+SOURCES += segmentation_service.py 
+SOURCES += settings_service.py 
+SOURCES += ui_manager.py 
+SOURCES += view.py 
