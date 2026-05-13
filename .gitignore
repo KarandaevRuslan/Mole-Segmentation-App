@@ -1,0 +1,81 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.anaconda/
+.conda/
+
+# Anaconda / Python environment files
+conda-meta/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+*.egg
+dist/
+build/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# PyCharm / other IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyQt / Qt generated files
+*_ui.py
+*_rc.py
+qrc_*.py
+
+# Qt translation build artifacts
+*.qm
+
+# Keep translation source files
+!*.ts
+
+# Local app config / user settings
+settings.json
+config.local.py
+*.local.json
+
+# Model / ML artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Images / temp outputs
+outputs/
+results/
+temp/
+tmp/
+
+# pipreqs / packaging cache
+requirements.lock
